@@ -1,8 +1,8 @@
 from pathlib import Path
 
 # Path to project and file
-path_to_project = Path("/home/acacia/Documents/teaching/AY2022-2023/winter")
-project_dir = path_to_project / "cmsc140-lab4-dnaseq"
+path_to_project = Path("\dylan\Lawrence University\Sophmore Year\Winter 2023\CMSC140\Week 7")
+project_dir = path_to_project / "CMSC140-DNASEQLAB"
 fname = project_dir / "seq.txt"
 out = project_dir / "aa.txt"
 
@@ -68,4 +68,5 @@ aa = rna_to_aa(rna)
 
 # Write the string 'aa' to a file called 'aa.txt'. 
 
-##### INSERT CODE #####
+with open('aa.txt', 'w') as file:
+    file.write(aa)
