@@ -1,7 +1,7 @@
 from pathlib import Path
 
 # Path to project and file
-path_to_project = Path("/home/acacia/Documents/teaching/AY2022-2023/winter")
+path_to_project = Path("\Users\Liuh\OneDrive\Documents\CMSC140\CMSC140-DNASEQLAB")
 project_dir = path_to_project / "cmsc140-lab4-dnaseq"
 fname = project_dir / "seq.txt"
 out = project_dir / "aa.txt"
