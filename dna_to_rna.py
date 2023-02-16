@@ -1,8 +1,8 @@
 from pathlib import Path
 
 # Path to project and file
-path_to_project = Path("C:\\Users\\roseb\\OneDrive\\Documents\\Intro_to_Python\\")
-project_dir = path_to_project / "CMSC140-DNASEQLAB"
+path_to_project = Path("C:/Users/roseb/OneDrive/Documents/Intro_to_Python") # modified to match the absolute path on my computer
+project_dir = path_to_project / "CMSC140-DNASEQLAB" # changed name to match actual folder name
 fname = project_dir / "seq.txt"
 out = project_dir / "aa.txt"
 
