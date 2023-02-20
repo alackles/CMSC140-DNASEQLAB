@@ -71,4 +71,3 @@ aa = rna_to_aa(rna)
 ##### INSERT CODE #####
 with open("aa.txt", 'w') as o: #either that or use variable out, whihc includes full path
     o.write(aa)
-o.close()
